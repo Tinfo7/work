@@ -1,0 +1,37 @@
+nav {
+    background: #222222;
+    border: 1px solid #333333;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+    position: fixed;
+    .logo{
+        flex: 2;
+    }
+    .text-nav{
+        flex: 5;
+        ul{
+            display: flex;
+            li{
+                padding-left: 50px;
+                display: flex;
+                align-items: center;
+                height: 50px;
+                width: 83px;
+                list-style: none;
+                cursor: pointer;
+                a{
+                    text-decoration: none;
+                    color: white;
+                    font-family:sans-serif, 'Montserrat';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 12px;
+                }
+            }
+        }
+    }
+}

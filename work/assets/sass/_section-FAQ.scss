@@ -1,0 +1,84 @@
+.FAQ{
+    background: #F4F4F4;
+    padding-top: 61px;
+    padding-bottom: 91px;
+    .titel {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            h1 {
+                font-family: sans-serif, 'Montserrat';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 144px;
+                line-height: 144px;
+                -webkit-text-fill-color: transparent;
+                -webkit-text-stroke-width: 1px;
+                margin: 0;
+                color: #DDDDDD;
+            }
+            h3 {
+                font-family: sans-serif, 'Montserrat';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 48px;
+                line-height: 48px;
+                margin: 0;
+            }
+    }
+    .qustion{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 90px;
+        .active{
+            background: #EAEAEA;
+            border-radius: 4px;
+            width: 66%;
+            cursor: pointer;
+            h1{
+                color: #009432;
+                font-family:sans-serif, 'Montserrat';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 20px;
+                padding-top: 20px;
+                padding-left: 20px;
+                padding-bottom: 14px;
+                margin: 0;
+            }
+            p{
+                padding-left: 20px;
+                padding-bottom: 24px;
+                width: 74%;
+                font-family:sans-serif, 'Montserrat';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 30px;
+                color: #222222;
+                margin: 0;
+            }
+        }
+        div{
+            background: #EAEAEA;
+            border-radius: 4px;
+            width: 66%;
+            margin-top: 12px;
+            cursor: pointer;
+            h1{
+                font-family:sans-serif, 'Montserrat';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 20px;
+                padding-top: 22px;
+                padding-left: 20px;
+                padding-bottom: 22px;
+                margin: 0;
+            }
+        }
+    }
+}

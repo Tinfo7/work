@@ -1,0 +1,44 @@
+footer{
+    padding: 60px 150px 30px 150px;
+    div{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .social-media{
+            display: flex;
+            justify-content: space-between;
+            width: 15%;
+            div{
+                background: #333333;
+                border-radius: 50px;
+            }
+        }
+    }
+    hr{
+        margin-top: 36px;
+        margin-bottom: 36px;
+    }
+    div{
+        span{
+            color: #FFFFFF;
+            font-family:sans-serif, 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+        }
+        .names{
+            display: flex;
+            justify-content: space-between;
+            width: 25%;
+            p{
+                color: #FFFFFF;
+                font-family:sans-serif, 'Montserrat';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 20px;
+            }
+        }
+    }
+}

@@ -1,0 +1,103 @@
+@media only screen and (max-width: 390px) {
+    nav{
+        height: 7%;
+        padding: 0;
+        position: fixed;
+        .logo{
+            display: flex;
+            padding-left: 20px;
+        }
+        .text-nav{
+            display: none;
+        }
+        .join-btn{
+            display: none;
+        }
+    }
+    header{
+        display: flex;
+        padding-top: 47%;
+        flex-direction: column-reverse;
+        height: 100%;
+        section{
+            display: flex;
+            align-items: center;
+            text-align: center;
+        }
+        main{
+            img{
+                width: 100%;
+            }
+        }
+        .left-aside{
+            display: none;
+        }
+        .right-aside{
+            display: none;
+        }
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+        .titel-about{
+            h1{
+                font-family:sans-serif, 'Montserrat';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 54px;
+                line-height: 66px;
+            }
+            h3{
+                font-family:sans-serif, 'Montserrat';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 24px;
+                line-height: 29px;
+            }
+        }
+        .flex{
+            display: flex;
+            flex-direction: column;
+            .image{
+                padding: 0;
+                img{
+                    width: 98%;
+                }
+            }
+            .about-info {
+                display: flex;
+                width: 100%;
+                padding-left: 20px;
+                span{
+                    width: 90%;
+                }
+            }
+        }
+    }
+    .our-roadmap{
+        .titel{
+            display: flex;
+            align-items: center;
+            h1{
+                font-family:sans-serif, 'Montserrat';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 50px;
+                line-height: 66px;
+            }
+            h3{
+                font-family:sans-serif, 'Montserrat';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 24px;
+                line-height: 29px;
+            }
+        }
+        #delet{
+            display: none;
+            p{
+                width: 67%;
+            }
+        }
+    }
+}
